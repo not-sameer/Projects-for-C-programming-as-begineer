@@ -1,3 +1,4 @@
+//Creating a number guessing game from 9 to 100 using c programming
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
@@ -29,3 +30,4 @@ yep:
 printf("Congrats!!! You guessed the number in %d times.",no_of_guess +1);
 return 0;
 }
+
