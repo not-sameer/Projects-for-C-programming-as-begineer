@@ -31,7 +31,7 @@ sleep(1);
  {
     printf("It's a tie\n");
  }
- else if ((n==1 && m==3)||(n==2 && m==3)||(n==3 && m==2))
+ else if ((n==1 && m==3)||(n==3 && m==2) || (n==2&& m==1))
  {
     
 printf("Hurry, I won!!!!!!!!!!!"); 
@@ -45,3 +45,4 @@ printf("It was fun playing with you. See you again!!");
     return 0;
 
 }
+
