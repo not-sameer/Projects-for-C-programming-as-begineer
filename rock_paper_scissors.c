@@ -40,7 +40,8 @@ printf("Hurry, I won!!!!!!!!!!!");
  {
     printf("Shit, You won.....");
  }
-
+printf("It was fun playing with you. See you again!!");
 
     return 0;
+
 }
