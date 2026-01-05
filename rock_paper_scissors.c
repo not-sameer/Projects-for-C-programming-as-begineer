@@ -7,7 +7,10 @@ int main()
     int m;
     printf("Enter your call for rock as 1, paper as 2, and scissors as 3: ");
     scanf("%d",&m);
-
+if (m < 1 || m > 3) {
+        printf("Invalid input! Please choose 1, 2, or 3.\n");
+        return 0;
+    }
     int n;
 srand(time(0));
 n=rand()% (3)+1;
@@ -45,5 +48,6 @@ printf("It was fun playing with you. See you again!!");
     return 0;
 
 }
+
 
 
