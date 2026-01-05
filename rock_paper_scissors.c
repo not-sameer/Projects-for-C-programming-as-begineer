@@ -4,14 +4,14 @@
 #include<unistd.h> //This header file contains sleep()
 int main()
 {
-    char m;
+    int m;
     printf("Enter your call for rock as 1, paper as 2, and scissors as 3: ");
     scanf("%d",&m);
 
     int n;
 srand(time(0));
 n=rand()% (3)+1;
-sleep(1.5); //for delaying the program for 1.5 sec
+sleep(2); //for delaying the program for 2 sec
 if (n==1)
 {
     printf("I will go with \"ROCK\"\n");
@@ -45,4 +45,5 @@ printf("It was fun playing with you. See you again!!");
     return 0;
 
 }
+
 
